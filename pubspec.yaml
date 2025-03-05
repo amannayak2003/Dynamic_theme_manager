@@ -1,0 +1,26 @@
+name: dynamic_theme_manager
+description: "A Flutter package for dynamic theme management using GetX and SharedPreferences."
+
+homepage: https://github.com/amannayak2003/dynamic_theme_manager
+repository: https://github.com/amannayak2003/dynamic_theme_manager
+issue_tracker: https://github.com/amannayak2003/dynamic_theme_manager/issues
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+  shared_preferences: ^2.2.0
+  flutter_colorpicker: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
